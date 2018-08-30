@@ -1,11 +1,15 @@
 package JogoCirculo;
 
 
+import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Line2D;
 import java.awt.geom.Rectangle2D;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+import java.net.URL;
 
 public class JogoCirculo extends Engine.Game {
 
@@ -13,13 +17,15 @@ public class JogoCirculo extends Engine.Game {
     int posY;
     int accX;
     int accY;
-
+    URL urlImgBola = getClass().getResource("./bola.png");
+    BufferedImage imgBola;
     @Override
-    public void onLoad() {
+    public void onLoad() throws IOException {
         posX = 0;
         posY = 0;
         accX = 2;
         accY = 2;
+        imgBola = ImageIO.read(urlImgBola);
     }
 
     @Override
@@ -44,17 +50,10 @@ public class JogoCirculo extends Engine.Game {
     }
 
     @Override
-    public void onRender(Graphics2D g) {
+    public void onRender(Graphics2D g) throws IOException {
         g.setColor(Color.white);
-        g.fillOval(posX, posY, 20, 20);
-
-        //TESTE
         Shape r = new Rectangle2D.Float(0, 0, getWidth() - 1, getHeight() - 1);
-        Shape c = new Ellipse2D.Float(0, 0, getWidth() - 1, getHeight() - 1);
-        Shape l = new Line2D.Float(100, 100, getWidth() / 2, getHeight() / 2);
-
         g.draw(r);
-
-
+        g.drawImage(imgBola, posX, posY, 20,20, null);
     }
 }

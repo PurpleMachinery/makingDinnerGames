@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 import java.awt.image.BufferStrategy;
+import java.io.IOException;
 
 abstract public class Game implements WindowListener {
     private JFrame mainWindow;
@@ -22,7 +23,7 @@ abstract public class Game implements WindowListener {
         active = false;
     }
 
-    public void run() {
+    public void run() throws IOException {
         active = true;
         load();
         while (active) {
@@ -32,7 +33,7 @@ abstract public class Game implements WindowListener {
         unload();
     }
 
-    public void load() {
+    public void load() throws IOException {
         mainWindow.setUndecorated(true);
         mainWindow.setIgnoreRepaint(false);
         mainWindow.setLocationRelativeTo(null);
@@ -48,7 +49,7 @@ abstract public class Game implements WindowListener {
         mainWindow.dispose();
     }
 
-    public void render() {
+    public void render() throws IOException {
         Graphics2D g = (Graphics2D) bufferStrategy.getDrawGraphics();
         g.setColor(Color.black);
         g.fillRect(0, 0, mainWindow.getWidth(), mainWindow.getHeight());
@@ -57,13 +58,13 @@ abstract public class Game implements WindowListener {
         bufferStrategy.show();
     }
 
-    abstract public void onLoad();
+    abstract public void onLoad() throws IOException;
 
     abstract public void onUnload();
 
     abstract public void onUpdate();
 
-    abstract public void onRender(Graphics2D g);
+    abstract public void onRender(Graphics2D g) throws IOException;
 
     public int getWidth() {
         return mainWindow.getWidth();

@@ -1,7 +1,11 @@
 package JogoPilares;
 
 import Engine.Game;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
 
+import java.applet.Applet;
+import java.applet.AudioClip;
 import java.awt.*;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
@@ -16,6 +20,7 @@ public class JogoPilares extends Game {
     private BufferedImage imgBola;
     private BufferedImage imgPilarVermelho;
     private BufferedImage imgPilarAmarelo;
+    AudioClip musica;
 
     public JogoPilares() {
         circle = new Point(10, 10);
@@ -42,6 +47,9 @@ public class JogoPilares extends Game {
             } else {
                 imgPilarAmarelo = ImageIO.read(imgUrl);
             }
+            URL url = getClass().getResource("./bgmusic.wav");
+            musica = Applet.newAudioClip(url);
+            musica.loop();
         } catch (IOException ioe) {
             throw new RuntimeException(ioe);
         }
@@ -52,6 +60,7 @@ public class JogoPilares extends Game {
     }
 
     public void onUnload() {
+        musica.stop();
     }
 
     public void onUpdate() {

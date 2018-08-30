@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="595e0143-9581-4933-834e-8ea1e282bbfe" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Engine/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JogoCirculo/JogoCirculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JogoCirculo/JogoCirculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JogoCirculo/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JogoCirculo/main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JogoCirculo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/JogoCirculo/JogoCirculo.java">
+      <file leaf-file-name="JogoPilares.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JogoPilares/JogoPilares.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+            <state relative-caret-position="163">
+              <caret line="79" column="40" lean-forward="true" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -26,31 +28,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Engine/Game.java">
+      <file leaf-file-name="JogoCirculo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JogoCirculo/JogoCirculo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="261">
+              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#1662#1663#0" expanded="true" />
-                <element signature="e#1706#1707#0" expanded="true" />
-                <element signature="e#1736#1737#0" expanded="true" />
-                <element signature="e#1781#1782#0" expanded="true" />
-                <element signature="e#1829#1830#0" expanded="true" />
-                <element signature="e#1856#1857#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JogoCirculo/main.java">
+        <entry file="file://$PROJECT_DIR$/src/JogoPilares/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="68">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -76,8 +70,10 @@
         <option value="$PROJECT_DIR$/src/circulo/Game.java" />
         <option value="$PROJECT_DIR$/src/Engine/Core.java" />
         <option value="$PROJECT_DIR$/src/JogoCirculo/main.java" />
-        <option value="$PROJECT_DIR$/src/Engine/Game.java" />
         <option value="$PROJECT_DIR$/src/JogoCirculo/JogoCirculo.java" />
+        <option value="$PROJECT_DIR$/src/Engine/Game.java" />
+        <option value="$PROJECT_DIR$/src/JogoPilares/main.java" />
+        <option value="$PROJECT_DIR$/src/JogoPilares/JogoPilares.java" />
       </list>
     </option>
   </component>
@@ -96,9 +92,11 @@
     <option name="width" value="1400" />
     <option name="height" value="820" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -128,13 +126,24 @@
             <path>
               <item name="games" type="b2602c69:ProjectViewProjectNode" />
               <item name="games" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="games" type="b2602c69:ProjectViewProjectNode" />
+              <item name="games" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="games" type="b2602c69:ProjectViewProjectNode" />
               <item name="games" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="JogoCirculo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="games" type="b2602c69:ProjectViewProjectNode" />
+              <item name="games" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JogoPilares" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -151,6 +160,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wesley\Desktop\games\out\production\games\JogoPilares" />
+      <recent name="C:\Users\wesley\Desktop\games\out\production\games\JogoCirculo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wesley\Desktop\games\out\production\games\JogoCirculo" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -163,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main (1)">
+  <component name="RunManager" selected="Application.main (2)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -174,6 +192,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JogoCirculo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JogoPilares.main" />
+      <module name="games" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JogoPilares.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,9 +259,11 @@
     <list>
       <item itemvalue="Application.main" />
       <item itemvalue="Application.main (1)" />
+      <item itemvalue="Application.main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main (2)" />
         <item itemvalue="Application.main (1)" />
         <item itemvalue="Application.main" />
       </list>
@@ -250,12 +281,12 @@
       <updated>1535627956268</updated>
       <workItem from="1535627971084" duration="2944000" />
       <workItem from="1535631522188" duration="100000" />
-      <workItem from="1535632890249" duration="4691000" />
+      <workItem from="1535632890249" duration="8152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7735000" />
+    <option name="totallyTimeSpent" value="11196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -394,8 +425,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Engine/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="149">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#523#524#0" expanded="true" />
@@ -412,15 +443,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JogoCirculo/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="119">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JogoPilares/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JogoCirculo/JogoCirculo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        <state relative-caret-position="261">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JogoPilares/JogoPilares.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="79" column="40" lean-forward="true" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
